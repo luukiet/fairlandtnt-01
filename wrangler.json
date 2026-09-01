@@ -12,3 +12,17 @@
 		"VALUE_FROM_CLOUDFLARE": "Hello from Cloudflare"
 	}
 }
+
+{
+  "name": "d1-tutorial",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-31",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    { "binding": "prod-d1-tutorial", "database_id": "2fecd58a-b27c-43ef-b5fa-992d1688d163" }
+  ]
+}
+
